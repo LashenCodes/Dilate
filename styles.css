@@ -1,0 +1,65 @@
+body {
+  padding: 25px;
+  margin: 0;
+  background: #12131a;
+  color: #e8e9f0;
+  font-family: "8514oem Regular", "Courier New", monospace;
+  font-size: 18px;
+}
+
+.title {
+  color: #8f9cff;
+  font-family: inherit;
+  font-size: 2.2rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 14px;
+  font-size: 1rem;
+  color: #e8e9f0;
+  background: #25283a;
+  border: 1px solid #454b70;
+  border-radius: 6px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.tabs button:hover,
+.tabs button:focus-visible {
+  background: #353b5c;
+}
+
+.tab-content {
+  padding: 16px;
+  border: 1px solid #454b70;
+  border-radius: 8px;
+  max-width: 600px;
+  background: #1b1d29;
+}
+
+.tab-content button {
+  padding: 10px 14px;
+  font-size: 1rem;
+  color: #12131a;
+  background: #bbbbbb;
+  border: 0;
+  border-radius: 6px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.tab-content button:hover,
+.tab-content button:focus-visible {
+  background: #adb6ff;
+}
+
+.tab-content[hidden] {
+  display: none;
+}
+
