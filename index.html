@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dilate</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Dilate</h1>
 
+    <a href="https://scratch.mit.edu/projects/1374454131/" target="_blank">Play the original game here!<a>
+    <br><br>
+
+    <nav class="tabs" aria-label="Game sections">
+      <button type="button" onclick="clicked_maintab()">Main</button>
+      <button type="button" onclick="clicked_prestigetab()">Prestige</button>
+      <button type="button" onclick="clicked_battlestab()">Battles</button>
+      <button type="button" onclick="clicked_supernovatab()">Supernova</button>
+    </nav>
+
+    <main>
+      <section id="main-tab" class="tab-content">
+        <h2>Main</h2>
+        <p>Speed: <span id="speed-display">-Infinity</span></p>
+        <p>Distance: <span id="distance-display">-Infinity</span></p>
+        <p>Speed add: <span id="speed-add-display">-Infinity</span></p>
+        <button type="button" onclick="clicked_mu0()">Speed up</button>
+      </section>
+
+      <section id="prestige-tab" class="tab-content" hidden>
+        <h2>Prestige</h2>
+        <p>Prestige lets you reset your progress for powerful bonuses.</p>
+      </section>
+
+      <section id="battles-tab" class="tab-content" hidden>
+        <h2>Battles</h2>
+        <p>Prepare for battle and defeat your opponents.</p>
+      </section>
+
+      <section id="supernova-tab" class="tab-content" hidden>
+        <h2>Supernova</h2>
+        <p>Reach the supernova and unlock the next level of progress.</p>
+      </section>
+     </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
